@@ -1,0 +1,18 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo del icono -->
+  <rect width="32" height="32" rx="6" fill="#F7C700"/>
+  
+  <!-- Círculo del reloj -->
+  <circle cx="16" cy="16" r="10" fill="#F7C700" stroke="#174E8C" stroke-width="1.5"/>
+  <circle cx="16" cy="16" r="7" fill="none" stroke="#174E8C" stroke-width="1"/>
+  
+  <!-- Marcas del reloj -->
+  <line x1="16" y1="8" x2="16" y2="10" stroke="#174E8C" stroke-width="1"/>
+  <line x1="16" y1="22" x2="16" y2="24" stroke="#174E8C" stroke-width="1"/>
+  <line x1="8" y1="16" x2="10" y2="16" stroke="#174E8C" stroke-width="1"/>
+  <line x1="22" y1="16" x2="24" y2="16" stroke="#174E8C" stroke-width="1"/>
+  
+  <!-- Manecillas del reloj -->
+  <line x1="16" y1="16" x2="20" y2="12" stroke="#174E8C" stroke-width="2" stroke-linecap="round"/>
+  <line x1="16" y1="16" x2="16" y2="12" stroke="#174E8C" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

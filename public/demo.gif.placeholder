@@ -1,0 +1,32 @@
+<!-- Placeholder para demo.gif -->
+<!-- 
+Este archivo representa demo.gif (≤ 4 MB, 800×450px)
+Debe mostrar:
+1. Un PDF de resultados de natación abierto
+2. Yellow o'clock resaltando automáticamente el club
+3. El antes y después del proceso
+4. Duración recomendada: 3-5 segundos en loop
+
+Para crear el GIF real:
+1. Grabar pantalla del proceso completo
+2. Optimizar para web (≤ 4 MB)
+3. Asegurar que se vea bien en dispositivos móviles
+4. Incluir texto explicativo si es necesario
+-->
+
+# DEMO.GIF PLACEHOLDER
+
+## Especificaciones técnicas:
+- **Resolución**: 800×450px (16:9)
+- **Peso máximo**: 4 MB
+- **Duración**: 3-5 segundos en loop
+- **Formato**: GIF optimizado para web
+
+## Contenido sugerido:
+1. Vista del PDF original (sin resaltar)
+2. Transición mostrando Yellow o'clock en acción
+3. Resultado final con el club resaltado en amarillo
+4. Vuelta al inicio para el loop
+
+## Fallback:
+El componente Demo.tsx incluye fallback para usuarios con `prefers-reduced-motion`

@@ -1,0 +1,15 @@
+<svg width="300" height="60" viewBox="0 0 300 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icono del reloj -->
+  <circle cx="30" cy="30" r="25" fill="#F7C700" stroke="#174E8C" stroke-width="2"/>
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#174E8C" stroke-width="2"/>
+  <line x1="30" y1="15" x2="30" y2="25" stroke="#174E8C" stroke-width="2"/>
+  <line x1="30" y1="35" x2="30" y2="45" stroke="#174E8C" stroke-width="2"/>
+  <line x1="15" y1="30" x2="25" y2="30" stroke="#174E8C" stroke-width="2"/>
+  <line x1="35" y1="30" x2="45" y2="30" stroke="#174E8C" stroke-width="2"/>
+  <line x1="30" y1="30" x2="38" y2="22" stroke="#174E8C" stroke-width="3" stroke-linecap="round"/>
+  <line x1="30" y1="30" x2="30" y2="20" stroke="#174E8C" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Texto Yellow o'clock -->
+  <text x="70" y="25" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="#174E8C">Yellow</text>
+  <text x="70" y="45" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="400" fill="#174E8C">o'clock</text>
+</svg>
