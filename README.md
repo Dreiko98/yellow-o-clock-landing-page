@@ -92,7 +92,7 @@ Página de aterrizaje para la aplicación Yellow o'clock - una herramienta de es
 1. **Hero** - "Da color a tus resultados en PDF" + botón amarillo
 2. **Demo** - Sección con placeholder para GIF
 3. **Features** - Grid 3x2 con características
-4. **Pricing** - Tarjeta de 32€ con beneficios
+4. **Pricing** - Tarjeta de ??€ con beneficios
 5. **FAQ** - 6 preguntas con acordeón funcional
 6. **Footer** - Enlaces de contacto y legales
 

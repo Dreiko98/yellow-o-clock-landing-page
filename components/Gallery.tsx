@@ -177,21 +177,11 @@ export default function Gallery() {
             <h3 className="text-2xl font-bold mb-4">¿Listo para transformar tu flujo de trabajo?</h3>
             <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
               Únete a los profesionales que ya ahorran horas con Yellow o&apos;clock
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <motion.a
-                href="/demo.gif"
-                target="_blank"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-white text-blue-900 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                🎬 Ver demo animado
-              </motion.a>
+            </p>            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
                 href="/demo.pdf"
                 target="_blank"
-                className="inline-flex items-center gap-2 px-6 py-3 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-blue-900 transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-white text-blue-900 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -200,9 +190,7 @@ export default function Gallery() {
             </div>
           </div>
         </motion.div>
-      </div>
-
-      {/* Modal for enlarged view (simplified for now) */}
+      </div>      {/* Modal for enlarged view */}
       {selectedImage !== null && (
         <motion.div
           className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4"

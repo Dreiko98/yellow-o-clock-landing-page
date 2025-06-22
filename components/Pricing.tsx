@@ -21,18 +21,17 @@ export default function Pricing() {
             Una sola compra, beneficios de por vida
           </p>
         </div>        <div className="max-w-md mx-auto">
-          <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8">
-            <div className="text-center mb-8">
+          <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-8">            <div className="text-center mb-8">
               <h3 className="text-2xl font-bold text-blue-900 mb-2">
                 Licencia individual
               </h3>
               <div className="text-5xl font-bold text-blue-900 mb-2">
-                32€
+                ??€
               </div>
               <p className="text-neutral-600">
                 Pago único • Sin suscripciones
               </p>
-            </div>            <ul className="space-y-4 mb-8">
+            </div><ul className="space-y-4 mb-8">
               {benefits.map((benefit, index) => (
                 <li key={index} className="flex items-center">
                   <div className="text-green-500 mr-3 text-xl">✓</div>
