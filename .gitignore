@@ -38,8 +38,3 @@ next-env.d.ts
 # IDE
 .vscode/
 .idea/
-
-# Archivos ejecutables y assets personales
-public/YellowOClock.exe
-public/foto_nadando.png
-public/foto_profesional.png
