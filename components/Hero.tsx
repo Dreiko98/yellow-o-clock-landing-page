@@ -63,6 +63,8 @@ export default function Hero() {
           <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 justify-center items-center px-4">
             <DownloadButton />            <a 
               href="/demo.pdf" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg
                          border-2 border-white/30 text-white font-semibold text-sm sm:text-base
                          hover:border-white/50 hover:bg-white/10 transition-all backdrop-blur-sm

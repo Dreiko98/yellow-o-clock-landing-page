@@ -54,9 +54,9 @@ export default function HeroIllustration({ className = "" }: HeroIllustrationPro
           height="3"
           fill="#F7C700"
           opacity="0.8"
-          initial={{ scaleX: 0 }}
-          animate={{ scaleX: 1 }}
-          transition={{ duration: 1.5, delay: 1, ease: "easeOut" }}
+          initial={{ scaleX: 0, opacity: 0 }}
+          animate={{ scaleX: 1, opacity: 0.8 }}
+          transition={{ duration: 0.8, delay: 1, ease: [0.25, 0.1, 0.25, 1] }}
           style={{ transformOrigin: "left center" }}
         />
 
@@ -74,9 +74,9 @@ export default function HeroIllustration({ className = "" }: HeroIllustrationPro
           height="3"
           fill="#F7C700"
           opacity="0.8"
-          initial={{ scaleX: 0 }}
-          animate={{ scaleX: 1 }}
-          transition={{ duration: 1.5, delay: 1.5, ease: "easeOut" }}
+          initial={{ scaleX: 0, opacity: 0 }}
+          animate={{ scaleX: 1, opacity: 0.8 }}
+          transition={{ duration: 0.8, delay: 1.8, ease: [0.25, 0.1, 0.25, 1] }}
           style={{ transformOrigin: "left center" }}
         />
 
@@ -94,9 +94,9 @@ export default function HeroIllustration({ className = "" }: HeroIllustrationPro
           height="3"
           fill="#F7C700"
           opacity="0.8"
-          initial={{ scaleX: 0 }}
-          animate={{ scaleX: 1 }}
-          transition={{ duration: 1.5, delay: 2, ease: "easeOut" }}
+          initial={{ scaleX: 0, opacity: 0 }}
+          animate={{ scaleX: 1, opacity: 0.8 }}
+          transition={{ duration: 0.8, delay: 2.6, ease: [0.25, 0.1, 0.25, 1] }}
           style={{ transformOrigin: "left center" }}
         />
 
