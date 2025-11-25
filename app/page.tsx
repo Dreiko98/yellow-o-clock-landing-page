@@ -5,7 +5,7 @@ import Gallery from '../components/Gallery';
 import Features from '../components/Features';
 import Testimonials from '../components/Testimonials';
 import About from '../components/About';
-import Pricing from '../components/Pricing';
+import AboutCreator from '../components/AboutCreator';
 import FAQ from '../components/FAQ';
 import Footer from '../components/Footer';
 
@@ -35,8 +35,8 @@ export default function Home() {
         <section id="about">
           <About />
         </section>
-        <section id="pricing">
-          <Pricing />
+        <section id="creator">
+          <AboutCreator />
         </section>
         <section id="faq">
           <FAQ />

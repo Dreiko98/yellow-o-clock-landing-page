@@ -1,6 +1,8 @@
 # Yellow o'clock Landing Page
 
-Página de aterrizaje para la aplicación Yellow o'clock - una herramienta de escritorio que resalta automáticamente clubes deportivos en PDFs de resultados de natación.
+Página de aterrizaje para la aplicación Yellow o'clock - una herramienta de escritorio gratuita que resalta automáticamente clubes deportivos en PDFs de resultados de natación.
+
+**Hecho por y para nadadores, por [Germán Mallo](https://germanmallo.com)**
 
 ## 🚀 Características
 
@@ -8,7 +10,7 @@ Página de aterrizaje para la aplicación Yellow o'clock - una herramienta de es
 - **TypeScript** para type safety
 - **Tailwind CSS** para estilos
 - **Responsive design** optimizado para todos los dispositivos
-- **Integración con Stripe** (mockup en Fase A)
+- **Descarga gratuita** del ejecutable .exe
 
 ## 📦 Estructura del proyecto
 
@@ -16,20 +18,18 @@ Página de aterrizaje para la aplicación Yellow o'clock - una herramienta de es
 ├── app/
 │   ├── layout.tsx          # Layout principal con configuración de fuentes
 │   ├── page.tsx            # Página de inicio
-│   ├── success/page.tsx    # Página de éxito post-compra
-│   └── cancel/page.tsx     # Página de cancelación
+│   └── privacy/page.tsx    # Política de privacidad
 ├── components/
-│   ├── Hero.tsx            # Sección hero con CTA principal
+│   ├── Hero.tsx            # Sección hero con CTA de descarga
 │   ├── Demo.tsx            # Demostración animada
 │   ├── Features.tsx        # Grid de características
-│   ├── Pricing.tsx         # Pricing con tarjeta centrada
+│   ├── About.tsx           # Acerca del proyecto
+│   ├── AboutCreator.tsx    # Sobre Germán Mallo
 │   ├── FAQ.tsx             # Preguntas frecuentes
-│   ├── Footer.tsx          # Footer con enlaces legales
-│   └── BuyButton.tsx       # Botón de compra reutilizable
-├── pages/api/
-│   └── checkout.ts         # API route para checkout (mockup)
+│   ├── Footer.tsx          # Footer con enlaces
+│   └── DownloadButton.tsx  # Botón de descarga
 └── public/
-    ├── logo.svg            # Logo horizontal
+    ├── yellow-o-clock.exe  # Ejecutable de la aplicación
     ├── demo.gif            # Demo animada (placeholder)
     └── favicon.ico         # Favicon
 ```
@@ -84,20 +84,23 @@ Página de aterrizaje para la aplicación Yellow o'clock - una herramienta de es
 - Toda la estructura Next.js 13
 - Todos los componentes UI implementados
 - Diseño responsive completo
-- Mock de Stripe funcionando
-- Páginas Success/Cancel
-- Accordion FAQ interactivo
+- Descarga directa del ejecutable
+- Sección sobre el creador (Germán Mallo)
+- FAQ actualizado para descarga gratuita
 
 **📱 Lo que verás al abrir localhost:3000:**
-1. **Hero** - "Da color a tus resultados en PDF" + botón amarillo
+1. **Hero** - "Da color a tus resultados en PDF" + firma de Germán Mallo
 2. **Demo** - Sección con placeholder para GIF
 3. **Features** - Grid 3x2 con características
-4. **Pricing** - Tarjeta de ??€ con beneficios
-5. **FAQ** - 6 preguntas con acordeón funcional
-6. **Footer** - Enlaces de contacto y legales
+4. **About** - Sobre el proyecto
+5. **About Creator** - Germán Mallo y enlace a germanmallo.com
+6. **FAQ** - Preguntas frecuentes sobre descarga gratuita
+7. **Footer** - Enlaces y contacto
 
-**🔘 Funcionalidad de prueba:**
-- Botón "Comprar licencia" → redirige a /success
+**🔘 Funcionalidad principal:**
+- Botón "Descargar Gratis" → descarga yellow-o-clock.exe
+- Enlaces a germanmallo.com
+- Navegación suave entre secciones
 - FAQ se abre/cierra al hacer clic
 - Todo es responsive (prueba en móvil)
 

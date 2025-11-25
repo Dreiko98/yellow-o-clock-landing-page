@@ -1,4 +1,4 @@
-import BuyButton from './BuyButton';
+import DownloadButton from './DownloadButton';
 import HeroIllustration from './HeroIllustration';
 
 export default function Hero() {
@@ -36,15 +36,32 @@ export default function Hero() {
           </div>          {/* Título principal - responsive */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 md:mb-6 px-2">
             Da color a tus resultados en PDF
-          </h1>          {/* Subtítulo - responsive */}
-          <p className="text-base sm:text-lg md:text-xl text-blue-100 max-w-2xl mx-auto mb-6 md:mb-8 px-4">
+          </h1>
+          
+          {/* Subtítulo - responsive */}
+          <p className="text-base sm:text-lg md:text-xl text-blue-100 max-w-2xl mx-auto mb-4 md:mb-6 px-4">
             La aplicación de escritorio que subraya automáticamente los nadadores de tu club 
             en las series de natación. Simple, rápida y completamente offline.
           </p>
+          
+          {/* Firma del creador */}
+          <div className="mb-6 md:mb-8">
+            <p className="text-white/90 text-sm md:text-base font-medium">
+              Hecho por y para nadadores, por{' '}
+              <a 
+                href="https://germanmallo.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-[#F7C700] hover:text-[#e0b800] underline decoration-2 underline-offset-2 transition-colors"
+              >
+                Germán Mallo
+              </a>
+            </p>
+          </div>
 
           {/* CTAs - mejorados para móvil */}
           <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 justify-center items-center px-4">
-            <BuyButton />            <a 
+            <DownloadButton />            <a 
               href="/demo.pdf" 
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg
                          border-2 border-white/30 text-white font-semibold text-sm sm:text-base

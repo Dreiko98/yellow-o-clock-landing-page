@@ -15,23 +15,28 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Enlaces legales */}
+          {/* Enlaces */}
           <div>
-            <h3 className="font-semibold mb-4">Legal</h3>
+            <h3 className="font-semibold mb-4">Enlaces</h3>
             <ul className="space-y-2 text-sm">
               <li>
+                <a href="#demo" className="text-blue-100 hover:text-white transition-colors">
+                  Ver Demo
+                </a>
+              </li>
+              <li>
+                <a href="#features" className="text-blue-100 hover:text-white transition-colors">
+                  Características
+                </a>
+              </li>
+              <li>
+                <a href="#faq" className="text-blue-100 hover:text-white transition-colors">
+                  Preguntas Frecuentes
+                </a>
+              </li>
+              <li>
                 <a href="/privacy" className="text-blue-100 hover:text-white transition-colors">
-                  Política de Privacidad
-                </a>
-              </li>
-              <li>
-                <a href="/terms" className="text-blue-100 hover:text-white transition-colors">
-                  Términos de Servicio
-                </a>
-              </li>
-              <li>
-                <a href="/refund" className="text-blue-100 hover:text-white transition-colors">
-                  Política de Devoluciones
+                  Privacidad
                 </a>
               </li>
             </ul>

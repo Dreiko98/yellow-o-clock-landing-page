@@ -5,28 +5,32 @@ export default function FAQ() {
   const [openItem, setOpenItem] = useState<number | null>(null);
   const faqs = [
     {
-      question: "¿Cómo instalo Yellow o'clock?",
-      answer: "Después de la compra, recibirás un enlace de descarga por email. Simplemente descarga el archivo .exe y ejecútalo. No requiere instalación compleja, es un ejecutable portable."
+      question: "¿Cómo descargo Yellow o'clock?",
+      answer: "Simplemente haz clic en el botón 'Descargar Gratis' y se descargará el archivo ejecutable (.exe). No requiere instalación compleja, es un ejecutable portable que puedes usar inmediatamente."
+    },
+    {
+      question: "¿Es realmente gratis?",
+      answer: "Sí, Yellow o'clock es completamente gratuito. No hay costes ocultos, suscripciones ni pagos. Es mi forma de contribuir a la comunidad de natación."
     },
     {
       question: "¿Funciona con todos los PDFs de natación?",
-      answer: "Yellow o'clock funciona con PDFs de resultados de natación estándar y series. Si tienes un formato específico que no funciona, contáctanos y trabajaremos para añadir soporte."
+      answer: "Yellow o'clock funciona con PDFs de resultados de natación estándar y series. Si tienes un formato específico que no funciona, contáctame a través de germanmallo.com y trabajaré para añadir soporte."
     },
     {
-      question: "¿En cuántos ordenadores puedo usar mi licencia?",
-      answer: "Tu licencia te permite usar Yellow o'clock en todos tus dispositivos personales o de tu club deportivo. No hay límite de instalaciones."
+      question: "¿En cuántos ordenadores puedo usarlo?",
+      answer: "Puedes usar Yellow o'clock en todos los dispositivos que quieras, sin ningún tipo de limitación. Es tuyo para siempre."
     },
     {
       question: "¿Necesito conexión a internet para usar la aplicación?",
-      answer: "No, Yellow o'clock funciona completamente offline. Solo necesitas internet para la descarga inicial. Todos tus PDFs permanecen en tu ordenador."
+      answer: "No, Yellow o'clock funciona completamente offline. Solo necesitas internet para la descarga inicial. Todos tus PDFs permanecen en tu ordenador y tu privacidad está garantizada."
     },
     {
       question: "¿Puedo crear perfiles para diferentes clubes?",
       answer: "Sí, puedes crear perfiles ilimitados para diferentes clubes, equipos o categorías. Perfecto para entrenadores que trabajan con múltiples grupos."
     },
     {
-      question: "¿Hay garantía de devolución?",
-      answer: "Ofrecemos garantía de devolución de 30 días sin preguntas. Si no estás satisfecho, te devolvemos el dinero completo."
+      question: "¿Qué requisitos necesita mi ordenador?",
+      answer: "Yellow o'clock funciona en Windows 10 o superior. Es una aplicación ligera que no requiere grandes recursos del sistema."
     }
   ];
 

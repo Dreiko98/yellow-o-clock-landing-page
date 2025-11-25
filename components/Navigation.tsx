@@ -26,7 +26,7 @@ export default function Navigation() {
     { id: 'demo', label: 'Demo' },
     { id: 'features', label: 'Características' },
     { id: 'about', label: 'Acerca de' },
-    { id: 'pricing', label: 'Precio' },
+    { id: 'creator', label: 'El Creador' },
     { id: 'faq', label: 'FAQ' }
   ];
 
@@ -74,12 +74,12 @@ export default function Navigation() {
               
               {/* CTA Button */}
               <motion.button
-                onClick={() => scrollToSection('pricing')}
+                onClick={() => scrollToSection('hero')}
                 className="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-2 rounded-lg font-semibold transition-colors shadow-lg"
                 whileHover={{ scale: 1.05, boxShadow: "0 10px 25px rgba(247, 199, 0, 0.3)" }}
                 whileTap={{ scale: 0.95 }}
               >
-                Comprar ahora
+                Descargar Gratis
               </motion.button>
             </div>
 
@@ -125,10 +125,10 @@ export default function Navigation() {
                 </button>
               ))}
               <button
-                onClick={() => scrollToSection('pricing')}
+                onClick={() => scrollToSection('hero')}
                 className="block w-full text-left px-3 py-3 bg-yellow-500 text-white rounded-md font-semibold hover:bg-yellow-600 transition-colors mt-2"
               >
-                Comprar ahora
+                Descargar Gratis
               </button>
             </div>
           </div>
