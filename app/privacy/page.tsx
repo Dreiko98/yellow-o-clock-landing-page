@@ -29,8 +29,8 @@ export default function PrivacyPage() {
             <h2 className="text-xl font-semibold mb-4">4. Contacto</h2>
             <p className="mb-4">
               Para cualquier consulta sobre privacidad, contacta con nosotros en: 
-              <a href="mailto:germanmallo04@gmail.com" className="text-blue-600 hover:underline">
-                germanmallo04@gmail.com
+              <a href="mailto:info@germanmallo.com" className="text-blue-600 hover:underline">
+                info@germanmallo.com
               </a>
             </p>
 

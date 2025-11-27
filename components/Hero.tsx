@@ -1,9 +1,43 @@
 import DownloadButton from './DownloadButton';
 import HeroIllustration from './HeroIllustration';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
     <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 pt-16 pb-24 md:pt-20 md:pb-32 relative overflow-hidden">
+      {/* Background images - left and right with gradient fade */}
+      <div className="absolute inset-0 pointer-events-none">
+        {/* Left image - bg.jpeg with fade to right */}
+        <div className="absolute left-0 top-0 bottom-0 w-full md:w-3/5 opacity-25">
+          <div className="relative w-full h-full">
+            <Image
+              src="/bg.jpeg"
+              alt=""
+              fill
+              className="object-cover object-center"
+              priority
+            />
+            {/* Gradient overlay fading to right */}
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-800/50 to-blue-800"></div>
+          </div>
+        </div>
+        
+        {/* Right image - stock.png with fade to left */}
+        <div className="absolute right-0 top-0 bottom-0 w-full md:w-3/5 opacity-25">
+          <div className="relative w-full h-full">
+            <Image
+              src="/stock.png"
+              alt=""
+              fill
+              className="object-cover object-center"
+              priority
+            />
+            {/* Gradient overlay fading to left */}
+            <div className="absolute inset-0 bg-gradient-to-l from-transparent via-blue-800/50 to-blue-800"></div>
+          </div>
+        </div>
+      </div>
+      
       {/* Background decoration */}
       <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/10 via-transparent to-yellow-500/10"></div>
       
@@ -60,18 +94,18 @@ export default function Hero() {
           </div>
 
           {/* CTAs - mejorados para móvil */}
-          <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 justify-center items-center px-4">
-            <DownloadButton />            <a 
-              href="/demo.pdf" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg
-                         border-2 border-white/30 text-white font-semibold text-sm sm:text-base
-                         hover:border-white/50 hover:bg-white/10 transition-all backdrop-blur-sm
-                         active:scale-95"
-            >
-              📄 Descargar demo PDF
-            </a>
+          <div className="flex flex-col gap-2 justify-center items-center px-4">
+            <DownloadButton />
+            <p className="text-white/80 text-sm">
+              <a 
+                href="/demo.pdf" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#F7C700] underline underline-offset-2 transition-colors"
+              >
+                Clica aquí para descargar un PDF de prueba
+              </a>
+            </p>
           </div>
         </div>{/* Ilustración Hero con animación */}
         <div className="hidden lg:block mt-16">

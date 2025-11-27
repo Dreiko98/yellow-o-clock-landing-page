@@ -31,6 +31,10 @@ export default function FAQ() {
     {
       question: "¿Qué requisitos necesita mi ordenador?",
       answer: "Yellow o'clock funciona en Windows 10 o superior. Es una aplicación ligera que no requiere grandes recursos del sistema."
+    },
+    {
+      question: "¿Ofrecéis soporte técnico personalizado?",
+      answer: "Sí, ofrezco servicios de soporte técnico profesional y personalizado para empresas, clubes o federaciones que requieran asistencia prioritaria, personalización de funcionalidades o formación especializada. Contacta conmigo en info@germanmallo.com para más información sobre los servicios disponibles."
     }
   ];
 
@@ -79,7 +83,7 @@ export default function FAQ() {
             ¿Tienes otra pregunta?
           </p>
           <a 
-            href="mailto:germanmallo04@gmail.com" 
+            href="mailto:info@germanmallo.com" 
             className="inline-flex items-center text-blue-900 hover:text-blue-700 font-semibold"
           >
             📧 Contáctanos por email
