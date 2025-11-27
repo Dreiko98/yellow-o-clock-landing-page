@@ -58,7 +58,7 @@ export default function Navigation() {
             </motion.div>
 
             {/* Desktop Menu */}
-            <div className="hidden md:flex items-center space-x-8">
+            <div className="hidden md:flex items-center space-x-6">
               {navItems.map((item) => (                <motion.button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
@@ -71,6 +71,16 @@ export default function Navigation() {
                   {item.label}
                 </motion.button>
               ))}
+              
+              {/* Support Button - AZUL */}
+              <motion.a
+                href="/support"
+                className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors shadow-md text-sm flex items-center gap-1.5"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                ☕ Apoyar
+              </motion.a>
               
               {/* CTA Button */}
               <motion.button
@@ -124,6 +134,12 @@ export default function Navigation() {
                   {item.label}
                 </button>
               ))}
+              <a
+                href="/support"
+                className="block w-full text-center px-3 py-3 bg-blue-600 text-white rounded-md font-semibold hover:bg-blue-700 transition-colors mt-2"
+              >
+                ☕ Apoya el proyecto
+              </a>
               <button
                 onClick={() => scrollToSection('hero')}
                 className="block w-full text-left px-3 py-3 bg-yellow-500 text-white rounded-md font-semibold hover:bg-yellow-600 transition-colors mt-2"
